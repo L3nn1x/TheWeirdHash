@@ -91,10 +91,4 @@ class TWH:
             load = json.load(f)
             return load[0], load[1]
 
-twh = TWH()
-password = 'Om@r9299'
-
-
-hash0, binary = twh.create_hash(password)
-print(hash0)
 
